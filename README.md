@@ -1,2 +1,3 @@
 # grid-away-grid-ahoy
-Grid
+## You can see the code in Html and CSS Files
+*Github Pages:https://paztek1007.github.io/grid-away-grid-ahoy/*
