@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <title> Barbier Mathias GRID CSS</title>
+</head>
+<body>
+    <header>
+        GRID AWAY GRID A HOY
+        <nav>
+            <button class="navigation"onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Github Repo</button>
+            <button class="navigation"onclick="window.location.href='https://github.com/PAZTEK1007/';">Github Profile</button>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card1">
+            <img src="assets/img//home.svg" alt="home">
+            <p class="title">Your EMP Back  OfficeTour</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card2">
+            <img src="assets/img/chart-histogram.svg" alt="chart-histogram">
+            <p class="title">An Overview of Insider Tools & Benefits</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card3">
+            <img src="assets/img/clipboard.svg" alt="clipboard">
+            <p class="title">The EMP Affiliate Compensation Plan</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card4">
+            <img src="assets/img/hand-holding-usd.svg" alt="hand-holding-dollar">
+            <p class="title">How the EMP Coaching</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card5">
+            <img src="assets/img/search-dollar.svg" alt="search">
+            <p class="title" >How To Refer People & Make Money</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card6">
+            <img src="assets/img/life-ring.svg" alt="life-ring">
+            <p class="title">How To Get Help & Support</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card7">
+            <img src="assets/img/laptop.svg" alt="laptop">
+            <p class="title">Getting Started. The Essential Trainings</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+        <div class="card8">
+            <img src="assets/img/paper-plane.svg" alt="paper-plane">
+            <p class="title">The Fastest Way To Get Your First Sale</p>
+            <p class="desc">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders!</p>
+            <p class="desc2">Recommending</p>
+            <button class="learn" onclick="window.location.href='https://github.com/PAZTEK1007/grid-away-grid-ahoy';">Learn More</button>
+        </div>
+    </div>
+</body>
+</html>

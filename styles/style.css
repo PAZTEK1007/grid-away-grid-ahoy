@@ -1,0 +1,98 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+img{
+    grid-area: img;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+header {
+    display: grid;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #999999, #b2b2b2, #cbcbcb, #e5e5e5, #ffffff);    padding: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navigation{
+    border: none;
+    color: white;
+    background: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-auto-rows: minmax(400px, 1fr);
+    grid-template-areas:
+        "title title title title"
+        "img img img img"
+        "desc desc desc desc"
+        "desc2 desc2 desc2 desc2"
+        "button button button button"
+    ;
+    max-width: 960px;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    align-content: center;
+    text-align: center;
+    grid-gap: 15px;
+}
+
+.learn:hover , .navigation:hover{
+    background-color: rgba(24, 149, 232, 0.486);
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    border: none;
+    box-shadow: 1px 5px 8px  rgba(0, 0, 0, 0.136);
+}
+.card1:hover , .card2:hover , .card3:hover, .card4:hover ,.card5:hover ,.card6:hover ,.card7:hover ,.card8:hover {
+    box-shadow: 5px 5px 25px  rgba(0, 0, 0, 0.136);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card1 ,.card2 ,.card3 , .card4 , .card5 ,.card6 ,.card7 ,.card8{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 15px;
+    padding: 10px;
+    padding-top: 50px;
+    
+}
+
+
+
+.desc ,.desc2{
+    grid-area: desc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    color:grey;    
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.title{
+    grid-area: title;
+    font-family:'Nunito Sans', sans-serif;;
+}
+
+button{
+    grid-area: button;
+    font-weight:600;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    color: grey;
+    padding-top: 15px;
+    border-top: 1px solid grey;
+}
