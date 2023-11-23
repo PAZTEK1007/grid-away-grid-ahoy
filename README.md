@@ -7,10 +7,9 @@ Ce référentiel contient du code HTML et CSS pour créer une grille de mise en 
 1. Clonez ce référentiel sur votre machine locale.
 2. Ouvrez le fichier `index.html` dans votre navigateur pour voir la grille en action.
 
-## Utilisation
+## Information
 
-- Modifiez les fichiers HTML et CSS pour personnaliser la grille selon vos besoins.
-- Ajoutez du contenu supplémentaire à la grille en utilisant les classes CSS fournies.
+- Aprrendre à maitriser Grid & Flex , afin de faire des cartes propres et structurées.
 
 ## Ressources supplémentaires
 
